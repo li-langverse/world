@@ -1,11 +1,11 @@
-# Publish metadata — PKG-world
+# Publish metadata — PKG-li-world
 
 | Field | Value |
 |-------|--------|
-| **PKG id** | `PKG-world` |
-| **Registry name** | `world` (lip, phase 8d) |
+| **PKG id** | `PKG-li-world` |
+| **Registry name** | `li-world` (lip, phase 8d) |
 | **Maintainer** | li-langverse |
-| **Repository** | https://github.com/li-langverse/world |
+| **Repository** | https://github.com/li-langverse/li-world |
 | **License** | Apache-2.0 OR MIT (SPDX) |
 
 ## Exports (v1)
