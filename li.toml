@@ -1,22 +1,23 @@
 [package]
-name = "world"
+name = "li-world"
 version = "0.1.0"
 edition = "2026"
 license = "Apache-2.0 OR MIT"
-description = "World snapshots and save/load for Li Engine / World Studio (PH-GD-2)"
+description = "PH-GD-2 world — GameWorld stub + scene hooks (workload_class=stub until save/load)"
 
 [dependencies]
-# path = { path = "../other" }   # lip 8b+
+# scene hooks at composable boundary — avoid math/ui Vec2 clash when studio imports world
+# li-scene = { path = "../li-scene" }
 # registry = "1.0.0"             # lip 8d+
 
 [package.metadata.li]
-github_repo = "world"
+github_repo = "li-world"
 import_name = "world"
 min_lic = "0.1.0"
 maintainer = "li-langverse"
-pkg_id = "PKG-world"
+pkg_id = "PKG-li-world"
 
 [package.repository]
-url = "https://github.com/li-langverse/world"
-documentation = "https://li-langverse.github.io/li-language/ecosystem/world/"
-changelog = "https://github.com/li-langverse/world/blob/main/CHANGELOG.md"
+url = "https://github.com/li-langverse/li-world"
+documentation = "https://li-langverse.github.io/li-language/ecosystem/li-world/"
+changelog = "https://github.com/li-langverse/li-world/blob/main/CHANGELOG.md"
